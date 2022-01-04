@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="twentyFour_sp">24sp</dimen>
+    <dimen name="twelve_sp">12sp</dimen>
+    <dimen name="twelve_dp">12dp</dimen>
+    <dimen name="eight_sp">8sp</dimen>
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name ="threeHundred_dp">300dp</dimen>
+    <dimen name="oneHundredFifty_dp">105dp</dimen>
+    <dimen name="oneHundredSeven_dp">107dp</dimen>
+    <dimen name="medium_dimen">8dp</dimen>
+    <dimen name="large_dimen">16dp</dimen>
+    <dimen name="large_text">18sp</dimen>
+
+
+    <dimen name="thumbnail_dimen">96dp</dimen>
+</resources>

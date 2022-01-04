@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".activity.DetailTvShow">
+
+        <ImageView
+            android:id="@+id/iv_tvshows"
+            android:layout_width="@dimen/threeHundred_dp"
+            android:layout_height="@dimen/threeHundred_dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/poster"
+            tools:srcCompat="@mipmap/ic_launcher_round" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/material_orange_400">
+
+        </ProgressBar>
+
+        <TextView
+            android:id="@+id/tv_tvshows"
+            style="@style/Movie"
+            android:layout_marginStart="@dimen/eight_sp"
+            android:text="@string/tv_shows_name"
+            android:textSize="@dimen/twentyFour_sp"
+            android:visibility="invisible" />
+
+
+        <TextView
+            android:id="@+id/tv_release_date_tv_show"
+            style="@style/Category"
+            android:layout_marginStart="@dimen/eight_sp"
+            android:layout_marginTop="@dimen/four_dp"
+            android:text="@string/release_date"
+            android:textSize="@dimen/twelve_sp"
+            android:textStyle="italic"
+            android:visibility="invisible" />
+
+        <TextView
+
+            android:id="@+id/tv_rating_tv_shows"
+            style="@style/Rating"
+            android:layout_marginStart="@dimen/eight_sp"
+            android:layout_marginTop="@dimen/eight_sp"
+            android:textSize="@dimen/sixteen_sp"
+            android:visibility="invisible"
+            app:drawableStartCompat="@drawable/ic_star" />
+
+        <TextView
+            android:id="@+id/tv_synopsis"
+            style="@style/Overview"
+            android:layout_marginStart="@dimen/eight_sp"
+            android:layout_marginTop="@dimen/eight_sp"
+            android:text="@string/overview"
+            android:textSize="@dimen/sixteen_sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tv_des_tvshows"
+            style="@style/Description"
+            android:layout_marginStart="@dimen/eight_sp"
+            android:layout_marginTop="@dimen/four_dp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+</ScrollView>
+

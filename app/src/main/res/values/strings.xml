@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">iMovie</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="tv_shows_name">TV Show Name</string>
+    <string name="poster">poster</string>
+    <string name="overview">Synopsis</string>
+    <string name="splash">Splash</string>
+    <string name="detailmovie">Detail Movie</string>
+    <string name="detailtvShows">Detail TV Shows</string>
+    <string name="tv_des">Godzilla vs Kong is a 2021 American monster film directed by Adam Wingard. A sequel to Kong: Skull Island (2017) and Godzilla: King of the Monsters (2019), it is the fourth film in Legendary MonsterVerse. It is also the 36th film in the Godzilla franchise, the 12th film in the King Kong franchise, and the fourth Godzilla film to be completely produced by a Hollywood studio.[b] The film stars Alexander Skarsgård, Millie Bobby Brown, Rebecca Hall, Brian Tyree Henry, Shun Oguri, Eiza González, Julian Dennison, Lance Reddick, Kyle Chandler, and Demián Bichir. In the film, Kong clashes with Godzilla as humans lure the ape into the Hollow Earth to retrieve a power source for a secret weapon to stop Godzilla mysterious rampages.</string>
+    <string name="tab_text_1">Movies</string>
+    <string name="tab_text_2">Tv Show</string>
+    <string name="todo">TODO</string>
+    <string name="release_date">Release Date</string>
+    <string name="rating">Rating</string>
+
+</resources>
